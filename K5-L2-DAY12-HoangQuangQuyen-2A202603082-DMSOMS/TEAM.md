@@ -21,7 +21,7 @@
 
 **Phần việc chính**
 
-- Phụ trách gán nhãn 11 khung ảnh thuộc bộ dữ liệu G07 trên CVAT local.
+- Phụ trách gán nhãn 22 khung ảnh thuộc bộ dữ liệu G07 trên CVAT local.
 - Tập trung kiểm tra nhóm nhãn DMS, bao gồm khuôn mặt, bàn tay, điểm đặc trưng và các thuộc tính liên quan.
 - Phụ trách tổng hợp cấu trúc nhãn, kiểm tra định dạng và tính hợp lệ của dữ liệu xuất từ CVAT.
 - Theo dõi các phiên bản nhãn, đối chiếu thay đổi về bounding box, thuộc tính và tọa độ.
@@ -45,7 +45,7 @@ Các kết quả được đối chiếu bằng XML, IoU và `cabin_check`. Nh�
 
 **Phần việc chính**
 
-- Phụ trách gán nhãn 11 khung ảnh còn lại thuộc bộ dữ liệu G07 trên CVAT local.
+- Phụ trách gán nhãn 22 khung ảnh còn lại thuộc bộ dữ liệu G07 trên CVAT local.
 - Trọng tâm phân công là các nhãn OMS, bao gồm người ngồi, ghế trẻ em, vật thể và vị trí tương ứng trong cabin.
 - Phối hợp rà soát sự khác biệt giữa ảnh RGB và IR.
 - Kiểm tra cách xác định vị trí ghế theo hướng phương tiện, phân biệt loại ghế và những đối tượng có khả năng bị che khuất.
@@ -71,7 +71,7 @@ Các trường hợp hình ảnh thiếu chi tiết hoặc khó xác định đ�
 
 | Hạng mục | Hoàng Quang Quyền | Hồ Đăng Mạnh |
 |---|---|---|
-| Gán nhãn dữ liệu G07 | 11 khung | 11 khung |
+| Gán nhãn dữ liệu G07 | 22 khung | 22 khung |
 | Trọng tâm rà soát | DMS, mặt, tay | OMS, ghế, vật thể |
 | Đối chiếu RGB/IR | Phối hợp | Trọng tâm |
 | Kiểm tra tọa độ và thuộc tính | Trọng tâm DMS | Trọng tâm OMS |
@@ -114,7 +114,7 @@ Chi tiết việc sử dụng công cụ được lưu trong `prompts.md`.
 
 ## 6. Tổng kết nhóm
 
-Nhóm G07 gồm hai thành viên Hoàng Quang Quyền và Hồ Đăng Mạnh, với khối lượng gán nhãn được phân chia đồng đều, mỗi thành viên phụ trách 11/22 khung ảnh.
+Nhóm G07 gồm hai thành viên Hoàng Quang Quyền và Hồ Đăng Mạnh, với khối lượng gán nhãn được phân chia đồng đều, mỗi thành viên phụ trách 22/22 khung ảnh.
 
 **Kết quả chung**
 
