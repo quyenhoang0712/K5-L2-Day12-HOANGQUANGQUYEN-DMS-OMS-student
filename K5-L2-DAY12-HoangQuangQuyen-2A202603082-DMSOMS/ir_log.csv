@@ -1,0 +1,8 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S03_ir,IR_sim,"Trong vùng đồ ở rear_right, 59,7% điểm ảnh RGB có chênh kênh màu hơn 12 mức xám. Trên IR-sim tỷ lệ này là 0%.",object.type,Bản đầu dùng other. V2 dùng bag ở rear_right vì lượt rà trên chính ảnh IR-sim ghi được tay xách và chi tiết mặt túi.
+S07_ir,IR_sim,Vùng đồ vật ở rear_right mất chênh lệch kênh màu so với RGB. Hai khung vẫn có vùng phát hiện dạng hộp gần trùng vị trí.,object.type,"Giữ box theo hình khối, không dùng màu để phân loại."
+S08_ir,IR_sim,"Bộ phát hiện tìm được cả hai người trên hai khung. S08_rgb có hai vùng mặt phát hiện được, S08_ir chỉ có vùng mặt ở rear_right.",face,Bản nháp giữ hai person và một face trên IR-sim. Rà trực tiếp khả năng thấy mặt ở rear_left.
+S06_ir,IR_sim,Vùng bên trái ảnh có đường bao gần trùng với RGB. Bộ định vị xếp vùng này vào infant carrier trên RGB và child restraint trên IR-sim.,infant_seat / child_seat,Bản nháp giữ infant_seat ở rear_right. Cần kiểm tra tay xách và hình dáng nôi trực tiếp trước khi chốt loại ghế.
+D01,real_IR,Cả hai vùng mắt có điểm đạt 255/255 trong khi trung vị chỉ 36–43/255. Chênh lệch lớn làm việc xác nhận khe mắt khó hơn.,face.eye_left / face.eye_right,Hai mắt để unknown trong bản nháp. Rà vị trí và cờ occluded của face13.
+D04,real_IR,"Vùng kính có trung vị 31/255 và tối đa 80/255. Ở hai vùng mắt, mức sáng phân vị 95 chỉ 66 và 44/255.",face.eye_left / face.eye_right,Giữ unknown cho cả hai mắt vì vùng mắt thiếu chi tiết để phân biệt mở và khép.
+D06,real_IR,"Vùng kính tối, trung vị 30/255. Tăng tương phản cục bộ và thử lại trên bản sao vẫn không phát hiện được đường bao mặt.",face / face13,Bổ sung face và face13 từ vùng mặt đã định vị qua hai lượt. Hai mắt vẫn là unknown và các điểm mắt có cờ occluded.

@@ -1,0 +1,5 @@
+Kiểm toàn bộ export CVAT V2 sau lượt đối chiếu AI local. Bản V2 có thêm 4 box và cập nhật 1 thuộc tính theo ghi chú review.
+
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=9, face13=6, hand=7, infant_seat=8, object=6, person=12
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
