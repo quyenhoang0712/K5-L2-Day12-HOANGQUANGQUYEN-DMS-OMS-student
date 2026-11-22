@@ -8,8 +8,8 @@
 
 | Họ tên | MSSV | Số khung phụ trách | Bạn review chéo | Vai trò |
 |---|---|---|---|---|
-| Hoàng Quang Quyền | 2A202603082 | 11/22 khung | Hồ Đăng Mạnh | Gán nhãn, kiểm tra DMS, tổng hợp hồ sơ |
-| Hồ Đăng Mạnh | 2A202603092 | 11/22 khung | Hoàng Quang Quyền | Gán nhãn, rà soát OMS, đối chiếu RGB/IR |
+| Hoàng Quang Quyền | 2A202603082 | 22/22 khung | Hồ Đăng Mạnh | Gán nhãn, kiểm tra DMS, tổng hợp hồ sơ |
+| Hồ Đăng Mạnh | 2A202603092 | 22/22 khung | Hoàng Quang Quyền | Gán nhãn, rà soát OMS, đối chiếu RGB/IR |
 
 **Tổng tiến độ gán nhãn:** 22/22 khung.
 

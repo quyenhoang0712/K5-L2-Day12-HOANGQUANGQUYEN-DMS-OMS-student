@@ -4,7 +4,6 @@ Làm cá nhân, không mở slide, khoảng 10 phút. Ghi đáp án ngay dưới
 
 **Họ tên:** Hoàng Quang Quyền · **Mã:** G07
 
-Bài trả lời có sử dụng ChatGPT Codex. Phạm vi sử dụng AI được ghi trong `prompts.md`.
 
 ---
 
